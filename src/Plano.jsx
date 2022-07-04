@@ -1,14 +1,13 @@
 import App from "./App";
-import Button from "./Button";
 import "./Plano.css"
-function Plano({titulo, serve, qnt_projetcs, preco}){
+function Plano({imagem, titulo, infoBurguer, servePessoas, preco}){
     return(
         <div  className="plano-container">
-            <h1 className="plano-titulo">{titulo}</h1>
-            <p className="plano-info">{serve}</p>
-            <p className="plano-info">{qnt_projetcs}</p>
-            <h2 className="plano-preco">{preco}</h2>
-            <Button/>
+            <img src={imagem} alt="" width={200} />
+            <h3 className="plano-titulo">{titulo}</h3>
+            <p className="plano-info">{infoBurguer}</p>
+            <p className="plano-info">{servePessoas}</p>
+            <h3 className="plano-preco">{preco}</h3>
         </div>
     );
 }

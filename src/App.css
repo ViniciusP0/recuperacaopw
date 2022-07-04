@@ -40,6 +40,19 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+.cabecalho{
+  height: 5px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  font-family:'open-sans';
+  margin: 10px;
+}
+.top{
+font-family: 'opens-sans';
+height: 15px;
+}
 .cardPai{
+  font-family: 'opens-sans';
   display: flex;
 }
